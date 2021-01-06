@@ -1,0 +1,303 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue',
+        cursive;
+    font-family: 'Roboto',
+        sans-serif;
+
+}
+
+.container {
+    margin-left: 7%;
+}
+
+.shap {
+    width: 70px;
+    height: 5px;
+    background-color: #ff4500;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.shap2 {
+    width: 130px;
+    height: 5px;
+    background-color: #ff4500;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.shap3 {
+    width: 70px;
+    height: 5px;
+    background-color: #ff4500;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* Start top section  */
+.hero-content {
+    float: left;
+    width: 40%;
+}
+
+.hero-content h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Bebas Neue',
+        cursive;
+}
+
+.hero-content .hero-title {
+    color: #363958;
+    font-family: 'Bebas Neue',
+        cursive;
+    margin-bottom: -75px;
+}
+
+.hero-content .name-highlight {
+    color: #FF8367;
+    font-family: 'Bebas Neue',
+        cursive;
+
+}
+
+.hero-content p {
+    color: gray;
+    margin-top: -30px;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+.btn a {
+    text-decoration: none;
+    background-color: #FF8063;
+    padding: 13px 40px;
+    color: white;
+    border-radius: 5px;
+}
+
+.hero-content img {
+    width: 90%;
+    margin-left: 30%;
+
+}
+
+.top-section {
+    padding-bottom: 500px;
+    padding-top: 20px;
+}
+
+/* End top section  */
+
+/* Start about section  */
+
+.about-img img {
+    width: 35%;
+    float: left;
+}
+
+.about-description {
+    float: right;
+    width: 50%;
+    margin-right: 5%;
+}
+
+.about-description h1 {
+    font-size: 45px;
+    font-family: 'Bebas Neue',
+        cursive;
+    color: #363958;
+}
+
+.about-description p {
+    color: gray;
+    font-family: 'Roboto',
+        sans-serif;
+    line-height: 25px;
+}
+
+.about-section {
+    padding-bottom: 450px;
+}
+
+/* Start WORKING PROJECT section */
+#project-section-bg {
+    background-color: #E5E5E5;
+}
+
+.project-title {
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Bebas Neue',
+        cursive;
+    color: #363958;
+}
+
+.project-section {
+    padding-bottom: 100px;
+    padding-top: 10px;
+}
+
+.project-section span {
+    color: #F46060;
+}
+
+.project {
+    width: 380px;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.project img {
+    width: 350px;
+    height: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+
+.project h3 {
+    color: #363958;
+    padding: 0px 25px;
+}
+
+.project p {
+    color: gray;
+    padding: 0px 25px;
+}
+
+/* Start work-inqurty section  */
+.work {
+    padding: 100px;
+}
+
+.work-inquirty {
+    background-image: url(image/footer-bg.png);
+    width: 900px;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.work-inquiry-item h2 {
+    float: left;
+    margin: 80px;
+    font-size: 50px;
+    font-family: 'Bebas Neue',
+        cursive;
+    color: white;
+    font-weight: 400;
+}
+
+.work-inquiry-item button {
+    float: right;
+    margin: 90px;
+    padding: 8px 20px;
+    background-color: #FF8063;
+    border: 1px solid #FF8063;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+/* Start services section  */
+#services {
+    background-color: #1D1730;
+    padding: 60px;
+}
+
+.services-sub-title {
+    text-align: center;
+    font-family: 'Roboto',
+        sans-serif;
+    color: #F46060;
+    font-size: 20px;
+}
+
+.services-title {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+}
+
+.service-content {
+    width: 320px;
+    height: 330px;
+    background-color: #FF4500;
+    border-radius: 3px 60px 3px 3px;
+    padding: 20px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 70px;
+}
+
+.service-content h2 {
+    font-size: 30px;
+    color: white;
+    font-family: cursive;
+}
+
+.service-content p {
+    color: #E9E9E9;
+    line-height: 25px;
+}
+.services-btn {
+    margin-top: 50px;
+}
+.services-btn a {
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 17px;
+    border: 2px solid white;
+    padding: 8px 12px;
+}
+
+.service-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+/* start footer section  */
+footer {
+    padding-bottom: 30px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content h4 {
+    text-transform: uppercase;
+    color: saddlebrown;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Bebas Neue',
+    cursive;
+}
+
+.footer-content h2 {
+    color: #363958;
+}
+
+.footer-icon img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
